@@ -152,12 +152,12 @@ function yourls_html_footer($can_query = true) {
 	?>
 	</div><?php // wrap ?>
 	<footer id="footer" role="contentinfo"><p>
-		<?php
-		$footer  = yourls_s( 'Powered by %s', '<a href="http://yourls.org/" title="YOURLS">YOURLS</a> v ' . YOURLS_VERSION );
-		$footer .= $num_queries;
-		echo yourls_apply_filter( 'html_footer_text', $footer );
-		?>
-	</p></footer>
+		The information provided or shared by this website comes with no warranty of any kind, expressed or implied, regarding confidentiality, integrity, or availability. Under no circumstances will <a href="https://ivancarlos.com.br" target="_blank">Ivan Carlos Consultoria</a> be liable to you for any loss or damage of any kind incurred as a result of using the website. Visit <a href="https://pad.vg/privacidade" target="_blank">pad.vg/privacy</a> to review our privacy policy. Recreated by <a href="https://pad.vg/ivancarlos" target="_blank">Ivan Carlos</a> for exclusive internal use.
+		<br /><br />
+        As informações fornecidas ou compartilhadas por esse site não possuem garantia de qualquer tipo, expressa ou implícita, quanto à confidencialidade, integridade ou disponibilidade. Em nenhuma circunstância <a href="https://ivancarlos.com.br" target="_blank">Ivan Carlos Consultoria</a> terá qualquer responsabilidade para com você por qualquer perda ou dano de qualquer tipo incorrido como resultado do uso do site. Acesse <a href="https://pad.vg/privacidade" target="_blank">pad.vg/privacidade</a> para consultar nossa política de privacidade. Recriado por <a href="https://pad.vg/ivancarlos" target="_blank">Ivan Carlos</a> para uso exclusivo e interno.
+        <br /><br />
+		La información proporcionada o compartida por este sitio no tiene garantía de ningún tipo, expresa o implícita, en cuanto a confidencialidad, integridad o disponibilidad. En ningún caso, <a href="https://ivancarlos.com.br" target="_blank">Ivan Carlos Consultoria</a> será responsable ante usted por cualquier pérdida o daño de cualquier tipo incurrido como resultado del uso del sitio. Visite <a href="https://pad.vg/privacidade" target="_blank">pad.vg/privacidad</a> para consultar nuestra política de privacidad. Recreado por <a href="https://pad.vg/ivancarlos" target="_blank">Ivan Carlos</a> para uso exclusivo e interno.
+    </p></footer>
 	<?php if( yourls_get_debug_mode() ) {
 		echo '<div style="text-align:left"><pre>';
 		echo join( "\n", yourls_get_debug_log() );
