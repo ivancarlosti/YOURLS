@@ -273,10 +273,6 @@ a.bookmarklet:hover {
 	border-bottom-left-radius:25px;
 	border-bottom-right-radius:25px;
 }
-#footer p a {
-	background:#fff url(../images/favicon.svg) 2px center no-repeat;
-	padding-left:30px;
-}
 
 .notice {
 	border:1px solid #2a85b3;
